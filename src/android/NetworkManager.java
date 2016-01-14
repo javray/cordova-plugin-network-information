@@ -250,12 +250,12 @@ public class NetworkManager extends CordovaPlugin {
                         type.toLowerCase().equals(EHRPD) ||
                         type.toLowerCase().equals(HSUPA) ||
                         type.toLowerCase().equals(HSDPA) ||
-                        type.toLowerCase().equals(HSPA)) {
+                        type.toLowerCase().equals(HSPA)) ||
+                        type.toLowerCase().equals(HSPA_PLUS)){
                     return TYPE_3G;
                 }
                 else if (type.toLowerCase().equals(LTE) ||
-                        type.toLowerCase().equals(UMB) ||
-                        type.toLowerCase().equals(HSPA_PLUS)) {
+                        type.toLowerCase().equals(UMB)  {
                     return TYPE_4G;
                 }
             }
