@@ -60,10 +60,11 @@ public class NetworkManager extends CordovaPlugin {
     public static final String HSDPA = "hsdpa";
     public static final String ONEXRTT = "1xrtt";
     public static final String EHRPD = "ehrpd";
+    public static final String HSPA_PLUS = "hspa+";
     // 4G network types
     public static final String LTE = "lte";
     public static final String UMB = "umb";
-    public static final String HSPA_PLUS = "hspa+";
+    
     // return type
     public static final String TYPE_UNKNOWN = "unknown";
     public static final String TYPE_ETHERNET = "ethernet";
